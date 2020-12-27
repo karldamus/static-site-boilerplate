@@ -1,0 +1,16 @@
+$colors: (
+    // base
+    bg: #EAEAEA,
+    text: #0a0a0a,
+    // custom
+    c-green: #B0FF53,
+    c-blue: #5F6CCF,
+    c-yellow: #e9f80f,
+    c-red: #fa3b2d,
+    c-purple: #9f18ac,
+    c-pink: #f729c3,
+);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+}

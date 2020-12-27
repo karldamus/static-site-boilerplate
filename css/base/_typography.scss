@@ -1,0 +1,92 @@
+// body sizing
+body {
+    font-size: 18px;
+
+    @include tablet {
+        font-size: 20px;
+    }
+    @include desktop {
+        font-size: 22px;
+    }
+    @include largeDesktop {
+        font-size: 24px;
+    }
+}
+
+// base typography
+
+// headings
+h1 {
+    
+}
+h2 {
+    
+}
+h3 {
+
+}
+h4 {
+
+}
+h5 {
+
+}
+h6 {
+
+}
+
+// other markup
+p {
+
+}
+a {
+
+}
+li {
+
+}
+code {
+
+}
+
+// classed
+.cta {
+
+    // location
+    &.header {
+
+    }
+    &.footer {
+
+    }
+    // sizing
+    &.small {
+        
+    }
+    &.large {
+
+    }
+    &.card {
+
+    }
+    // colours
+    &.warning {
+        // red
+    }
+    &.error {
+        // orange
+    }
+    &.okay {
+        // green
+    }
+    &.info {
+        // blue
+    }
+    &.black {
+
+    }
+    &.white {
+
+    }
+
+}
