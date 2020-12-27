@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "ACAA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACzB",
+    "mappings": "ACAA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACzB;;AAED,AAAA,EAAE,EAAE,EAAE,EAAE,CAAC,CAAC;EACN,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,KAAK;EACZ,eAAe,EAAE,IAAI;CACxB;;AEVD,UAAU;EACN,WAAW,EAAE,KAAK;EAClB,GAAG,EAAE,qCAAqC,CAAC,kBAAkB;EAC7D,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;;;AEHtB,AAAA,IAAI,CAAC;EACD,SAAS,EAAE,IAAI;CAWlB;;AHAG,MAAM,EAAE,SAAS,EAAE,KAAK;EGZ5B,AAAA,IAAI,CAAC;IAIG,SAAS,EAAE,IAAI;GAQtB;;;AHYC,MAAM,EAAE,SAAS,EAAE,MAAM;EGxB3B,AAAA,IAAI,CAAC;IAOG,SAAS,EAAE,IAAI;GAKtB;;;AHkBG,MAAM,EAAE,SAAS,EAAE,MAAM;EG9B7B,AAAA,IAAI,CAAC;IAUG,SAAS,EAAE,IAAI;GAEtB",
     "sources": [
         "main.scss",
         "base/_reset.scss",
@@ -8,9 +8,19 @@
         "base/_imports.scss",
         "base/_variables.scss",
         "base/_typography.scss",
-        "components/_imageGalleryMaster.scss",
-        "components/_imageGallery01.scss",
-        "components/_imageGallery02.scss"
+        "components/forms/_cta.scss",
+        "components/forms/_inputs.scss",
+        "components/images/_imageGalleryMaster.scss",
+        "components/images/_imageGallery01.scss",
+        "components/images/_imageGallery02.scss",
+        "components/_carousel.scss",
+        "blocks/_header.scss",
+        "blocks/_footer.scss",
+        "blocks/_contactForm.scss",
+        "pages/_home.scss",
+        "pages/_about.scss",
+        "pages/_portfolio.scss",
+        "pages/_contact.scss"
     ],
     "names": [],
     "file": "main.css"
