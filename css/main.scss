@@ -4,4 +4,16 @@
 @import 'base/variables';
 @import 'base/typography';
 
-@import 'components/imageGalleryMaster';
+@import 'components/forms/cta';
+@import 'components/forms/inputs';
+@import 'components/images/imageGalleryMaster';
+@import 'components/carousel';
+
+@import 'blocks/header';
+@import 'blocks/footer';
+@import 'blocks/contactForm';
+
+@import 'pages/home';
+@import 'pages/about';
+@import 'pages/portfolio';
+@import 'pages/contact';
